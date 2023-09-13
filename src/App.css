@@ -1,38 +1,124 @@
-.App {
+@font-face {
+  font-family: 'GDT';
+  src: url('./fonts/GDT.woff2') format('woff2'),
+      url('./fonts/GDT.woff') format('woff');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  background-color: rgb(255, 255, 255);  
+  font-family: GDT;
+  font-weight: 600;
+  width: 100%;
+  margin: 0;
+}
+
+.titulo {
+  display: flex;
+  margin: 1cm;
+}
+
+.titulo img {
+  width: 200px; 
+  height: auto;
+  padding-left: 2.5cm;
+  padding-top: 0.3cm;
+}
+
+.titulo-texto {
+  display: inline-block;
+  padding-left: 2.6cm;
+  padding-top: 2.2cm;
+}
+
+.titulo p {
+  font-size: 17px;
+  width: fit-content;
+  margin: 0 0 0 0;
+}
+
+.plano {
+  display: block;
+  width: 100%;
+}
+
+.plano img{
+  width: 100%; 
+  margin: 0;   
+  padding: 0;  
+}
+
+.image-gallery {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  height: auto;
+  margin: 1cm 0 1cm 0;
+  padding: 0;
+}
+
+.image-gallery img {
+  width: 33.33333%;
+  height: 358px;
+  margin: 0;
+  padding: 0;
+}
+
+.texto-intermedio img{
+  display: inline;
+  width: auto;
+  height: 480px;
+  margin: 0cm;
+  padding-left: 1.5cm;
+}
+
+.objetivo {
+  display: block;
+  width: 100%;
+  margin-top: 1.5cm;
+  margin-bottom: 2cm;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.Titulo-objetivo {
+  margin-bottom: 0.5cm;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.Titulo-objetivo p{
+  font-size: x-large; 
+  margin: 0cm;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.lista-objetivos p{
+  font-size: small;
+  margin: 0cm;
+}
+
+.footer {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  width: 100%;
 }
 
-.App-link {
-  color: #61dafb;
+.footer img{
+  width: 70%;
+  height: auto;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.información {
+  width: 30%;
+  padding-left: 1cm;
+  padding-top: 2cm;
+  font-size: 15px;
+  
+}
+
+.parrafo, .contacto {
+  margin-bottom: 1cm;
+}
+
+.parrafo p, .contacto p {
+  margin: 0;
+  text-align: justify;
 }
