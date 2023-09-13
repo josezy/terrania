@@ -6,7 +6,7 @@ function App() {
   return (
     <div id="row" style={{ height: "100vh", width: "100vw" }}>
       <div className="titulo">
-        <img src="/media/Banner.png" alt="banner" />
+        <img src="/media/banner.webp" alt="banner" />
         <div className="titulo-texto">
           <p><u>ESPECIALISTAS EN DISENO Y CONSTRUCCION DE ESTRUCTURAS EN CONCRETO Y ACERO</u></p>
           <p>SPECIALISTS IN DESIGN AND CONSTRUCTION OF CONCRETE AND STEEL STRUCTURES</p>
@@ -14,24 +14,24 @@ function App() {
       </div>
 
       <div className="plano">
-        <img src="/media/plano.png" alt="Plano" />
+        <img src="/media/plano.webp" alt="Plano" />
       </div>
 
       <div className="image-gallery" id="gallery">
-        <img src="/media/img1.png" alt="Mampostería" />
-        <img src="/media/img2.png" alt="Losa" />
-        <img src="/media/img3.png" alt="Bombeo bodega" />
+        <img src="/media/img1.webp" alt="Mampostería" />
+        <img src="/media/img2.webp" alt="Losa" />
+        <img src="/media/img3.webp" alt="Bombeo bodega" />
       </div>
 
       <div className="texto-intermedio">
-        <img src="/media/Banner_2.png" alt="banner" />
-        <img src="/media/img7.png" alt="Render bodega" />
+        <img src="/media/Banner_2.webp" alt="banner" />
+        <img src="/media/img7.webp" alt="Render bodega" />
       </div>
 
       <div className="image-gallery" id="gallery">
-        <img src="/media/img4.png" alt="Estructura Bodega" />
-        <img src="/media/img5.png" alt="Fachada" />
-        <img src="/media/img6.png" alt="Techo bodega" />
+        <img src="/media/img4.webp" alt="Estructura Bodega" />
+        <img src="/media/img5.webp" alt="Fachada" />
+        <img src="/media/img6.webp" alt="Techo bodega" />
       </div>
 
       <div className="objetivo">
@@ -50,7 +50,7 @@ function App() {
       </div>
 
       <div className="footer">
-        <img src="/media/img8.png" alt="Render final" />
+        <img src="/media/img8.webp" alt="Render final" />
           <div className="información">
             <div className="parrafo">
               <p>DISENADORES ESTRUCTURALES</p>
