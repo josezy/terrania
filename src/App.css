@@ -210,6 +210,18 @@ body {
   }
 }
 
+@media (max-width: 420px) {
+  .texto-intermedio img{
+    display: inline;
+    width: auto;
+    height: 110px;
+    margin: 0cm;
+    padding-left: 0.9cm;
+    align-items: center;
+    margin: 0cm 0cm 0cm 0cm;
+  }
+}
+
 .objetivo {
   display: block;
   width: 100%;
@@ -311,6 +323,7 @@ body {
   padding-left: 1cm;
   padding-top: 2cm;
   font-size: 15px;
+  text-align: justify;
   
 }
 
@@ -318,7 +331,7 @@ body {
   margin-bottom: 1cm;
 }
 
-.parrafo p, .contacto p {
+.parrafo p {
   margin: 0;
   text-align: justify;
 }

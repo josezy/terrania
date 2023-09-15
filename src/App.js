@@ -63,7 +63,7 @@ function App() {
             <div className="contacto">
               <a href="https://www.instagram.com/terraniaconstructora/" target="_blank" rel="noreferrer">@TERRANIACONSTRUCTORA</a>
               <p>+57 312 636 5298</p>
-              <p>+57 321 895 6320</p>
+              <p>+57 305 227 5731</p>
             </div>
           </div>
       </div>
