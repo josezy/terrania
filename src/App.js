@@ -65,6 +65,17 @@ function App() {
               <p>+57 312 636 5298</p>
               <p>+57 305 227 5731</p>
             </div>
+            <div className="container-media-footer">
+              <a href="mailto:contacto.terrania@terrania.info" target="_blank" rel="noreferrer">
+                <img src="/media/Mail.png" alt="Correo" />
+              </a>
+              <a href="https://api.whatsapp.com/send?phone=3052275731" target="_blank" rel="noreferrer">
+                <img src="/media/WhatsApp_icon.png" alt="Whatsapp" />
+              </a>
+              <a href="https://www.instagram.com/terraniaconstructora/" target="_blank" rel="noreferrer">
+                <img src="/media/ig_icon.png" alt="Instagram" />
+              </a>
+            </div>
           </div>
       </div>
     </div>

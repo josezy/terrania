@@ -370,3 +370,43 @@ body {
     margin-bottom: 0.3cm;
   }
 }
+
+.container-media-footer {
+  display: flex;
+}
+
+.container-media-footer a {
+  width: 70px;
+}
+
+@media (min-width: 2225px) {
+  .container-media-footer a  {
+    width: 110px;
+  }
+}
+
+@media (max-width: 1294px) {
+  .container-media-footer a  {
+    width: 70px;
+  }
+}
+
+@media (max-width: 1024px) {
+  .container-media-footer a  {
+    width: 40px;
+  }
+}
+
+@media (max-width: 645px) {
+  .container-media-footer a  {
+    width: 17px;
+  }
+}
+
+div.container-media-footer a{
+  transition: all 0.2s ease;
+}
+
+div.container-media-footer a:hover {
+  transform: scale(1.2);
+}
