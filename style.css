@@ -1,0 +1,261 @@
+body {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style-type: none;
+    width: 100%;
+    background-color: rgb(232, 232, 232);
+    display: flex;
+}
+
+.animate_background {
+    position: fixed;
+    opacity: 70%;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+}
+
+
+@keyframes movimientoizq {
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+
+@keyframes movimientoder {
+    100% {
+        transform: rotate(-360deg);
+    }
+}
+
+.ellipse1,  .ellipse3, .ellipse5, .ellipse6, .ellipse7, .ellipse8, .ellipse9, .ellipse10, .ellipse11, .ellipse12,  .ellipse14, .ellipse15 {
+    animation: movimientoizq 1000s linear infinite;
+}
+
+.ellipse16, .ellipse17, .ellipse19, .ellipse23, .ellipse21, .ellipse25, .ellipse26, .ellipse27, .ellipse28,  .ellipse30,.ellipse31 {
+    animation: movimientoizq 1700s linear infinite;
+}
+
+.ellipse4, .ellipse18, .ellipse13, .ellipse29,.ellipse2, .ellipse22, .ellipse20, .ellipse19, .ellipse24 {
+    animation: movimientoizq 7000s linear infinite;
+}
+
+.ellipse32,   .ellipse34, .ellipse59, .ellipse45, .ellipse35, .ellipse36, .ellipse37, .ellipse38, .ellipse58, .ellipse39, .ellipse40,  .ellipse43 {
+    animation: movimientoder 4000s linear infinite;
+    transform-origin: center;
+}
+
+.ellipse44, .ellipse33, .ellipse46, .ellipse47, .ellipse48, .ellipse49, .ellipse50,  .ellipse52, .ellipse41,  .ellipse42, .ellipse54 {
+    animation: movimientoder 4500s  linear infinite;
+    transform-origin: center;
+}
+
+ .ellipse56, .ellipse57, .ellipse60, .ellipse53, .ellipse61, .ellipse62,.ellipse55, .ellipse51  {
+    animation: movimientoder 5000s  linear infinite;
+    transform-origin: center;
+}
+
+
+div.logo {
+    z-index: 2;
+    width: 10rem;   
+    position: relative;
+ }
+ 
+ div.logo img{
+    position: absolute;
+    top: 7cm;
+    width: 7cm;
+    height: auto;
+    transition: all 0.8s
+ }
+
+ div.logo img:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+    transition: all 0.8s;
+}
+
+.main {
+    padding-left: 50px;  
+    z-index: 2;
+    position: absolute;
+    top: 6.8cm;
+    left: 3.7cm;
+}
+
+.main ul a {
+    display: block;
+    color: #333;
+    padding: 10px 20px; 
+    font-weight: bold;
+    transition: all 0.5s;
+}
+
+div.main ul a:hover {
+    color: rgb(255, 170, 0);
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 0.5s;
+}
+
+
+.contenedor-imagenArrienda {
+    z-index: 2;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out; 
+}
+
+.imgarrienda {
+    position: absolute;
+    width: 10cm;
+    height: auto;
+    top: 8cm;
+    left: 25cm;
+}
+
+.arrienda:hover + .contenedor-imagenArrienda {
+    opacity: 0.5;
+}
+
+.contenedor-imagenCompra {
+    z-index: 2;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.imgcompra {
+    position: absolute;
+    width: 10cm;
+    height: auto;
+    top: 8cm;
+    left: 25cm;
+}
+
+
+.compra-vende:hover + .contenedor-imagenCompra {
+    opacity: 0.5;
+}
+
+.contenedor-imagenConstruye {
+    z-index: 2;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+}
+
+.imgconstruye {
+    position: absolute;
+    width: 10cm;
+    height: auto;
+    top: 8cm;
+    left: 25cm;
+}
+
+.construye:hover + .contenedor-imagenConstruye {
+    opacity: 0.5;
+}
+
+
+
+.contact {
+    z-index: 2;
+    position: absolute;
+    top: 6.8cm;
+    left: 36.2cm;
+    transition: all 0.5s;
+    align-items: right;
+    padding-right: 0.5cm;
+}
+
+.contact ul a {
+    z-index: 20;
+    background-color: rgb(255, 170, 0);
+    border-radius: 15rem;
+    color: white;
+    padding: 10px 20px 10px 20px;
+}
+
+div.contact:hover {
+    transform: scale(1.05);
+    transition: all 0.5s;
+    position: absolute;
+    top: 6.8cm;
+    left: 33.2cm;
+}
+
+div.contact ul a:hover {
+    color: rgb(243, 243, 243);
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 0.3s;
+}
+
+div.circulo {
+    z-index: 1;
+    width: 180px; 
+    height: 180px; 
+    border-radius: 50%; 
+    background-color: rgba(213, 213, 213, 0.30); 
+    position: absolute;
+    top: 6.75cm;
+    left: 35.9cm;
+    transition: all 0.5s;
+}
+
+
+.language ul a {
+    z-index: 2;
+    display: inline-block;
+    color: #333;
+    padding: 5px;
+}
+
+div.language ul a:hover {
+    color:rgb(255, 170, 0);
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: all 0.5s;
+}
+
+div.language img {
+    width: 20px;
+    height: auto;
+}
+
+
+div.container-media-footer {
+    display: flex;
+    justify-content: right;
+    margin-top: 5mm;
+    margin-bottom: 3mm;
+}
+
+div.container-media-footer img {
+    width: 2.3rem;
+    height: auto;
+    transition: all 0.5s;
+}
+
+
+div.container-media-footer img:hover {
+    cursor: pointer;
+    transform: scale(1.4);
+    transition: all 0.5s;
+}
+
+div.container {
+    z-index: 2;
+    background-color: rgb(48, 48, 48, 0.05);
+    position: absolute;
+    top: 2.5cm;
+    left: 11.5cm;
+    width: 23cm;
+    height: 15cm;
+    border-radius: 2rem;
+}
