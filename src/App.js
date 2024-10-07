@@ -17,8 +17,8 @@ function App() {
         <img src="/media/plano.webp" alt="Plano" loading="lazy" />
       </div>
 
-      <div className="image-gallery" id="gallery">
-        <img src="/media/img1.webp" alt="Mampostería" loading="lazy" />
+      <div className="image-gallery">
+        <img src="/media/img1.webp" alt="Mamposteria" loading="lazy" />
         <img src="/media/img2.webp" alt="Losa" loading="lazy" />
         <img src="/media/img3.webp" alt="Bombeo bodega" loading="lazy" />
       </div>
@@ -28,7 +28,7 @@ function App() {
         <img src="/media/img7.webp" alt="Render bodega" loading="lazy" />
       </div>
 
-      <div className="image-gallery" id="gallery">
+      <div className="image-gallery">
         <img src="/media/img4.webp" alt="Estructura Bodega" loading="lazy" />
         <img src="/media/img5.webp" alt="Fachada" loading="lazy" />
         <img src="/media/img6.webp" alt="Techo bodega" loading="lazy" />
