@@ -6,7 +6,7 @@ function App() {
   return (
     <div id="row" style={{ height: "100vh", width: "100vw" }}>
       <div className="titulo">
-        <img src="/media/banner.webp" alt="banner" />
+        <img src="/media/banner.webp" alt="banner" loading="lazy" />
         <div className="titulo-texto">
           <p><u>ESPECIALISTAS EN DISENO Y CONSTRUCCION DE ESTRUCTURAS EN CONCRETO Y ACERO</u></p>
           <p>SPECIALISTS IN DESIGN AND CONSTRUCTION OF CONCRETE AND STEEL STRUCTURES</p>
@@ -14,24 +14,24 @@ function App() {
       </div>
 
       <div className="plano">
-        <img src="/media/plano.webp" alt="Plano" />
+        <img src="/media/plano.webp" alt="Plano" loading="lazy" />
       </div>
 
       <div className="image-gallery" id="gallery">
-        <img src="/media/img1.webp" alt="Mampostería" />
-        <img src="/media/img2.webp" alt="Losa" />
-        <img src="/media/img3.webp" alt="Bombeo bodega" />
+        <img src="/media/img1.webp" alt="Mampostería" loading="lazy" />
+        <img src="/media/img2.webp" alt="Losa" loading="lazy" />
+        <img src="/media/img3.webp" alt="Bombeo bodega" loading="lazy" />
       </div>
 
       <div className="texto-intermedio">
-        <img src="/media/Banner_2.webp" alt="banner" />
-        <img src="/media/img7.webp" alt="Render bodega" />
+        <img src="/media/Banner_2.webp" alt="banner" loading="lazy" />
+        <img src="/media/img7.webp" alt="Render bodega" loading="lazy" />
       </div>
 
       <div className="image-gallery" id="gallery">
-        <img src="/media/img4.webp" alt="Estructura Bodega" />
-        <img src="/media/img5.webp" alt="Fachada" />
-        <img src="/media/img6.webp" alt="Techo bodega" />
+        <img src="/media/img4.webp" alt="Estructura Bodega" loading="lazy" />
+        <img src="/media/img5.webp" alt="Fachada" loading="lazy" />
+        <img src="/media/img6.webp" alt="Techo bodega" loading="lazy" />
       </div>
 
       <div className="objetivo">
@@ -50,33 +50,33 @@ function App() {
       </div>
 
       <div className="footer">
-        <img src="/media/img8.webp" alt="Render final" />
-          <div className="información">
-            <div className="parrafo">
-              <p>DISENADORES ESTRUCTURALES</p>
-              <p><u>STRUCTURAL DESIGNERS</u></p>
-              <p>ESTUDIO DE ARQUITECTURA</p>
-              <p><u>ARCHICTECTURE STUDIO</u></p>
-              <p>CONSTRUCTORES DE ESTRUCTURAS</p>
-              <p><u>STRUCTURE BUILDERS</u></p>
-            </div>
-            <div className="contacto">
-              <a href="https://www.instagram.com/terraniaconstructora/" target="_blank" rel="noreferrer">@TERRANIACONSTRUCTORA</a>
-              <p>+57 312 636 5298</p>
-              <p>+57 305 227 5731</p>
-            </div>
-            <div className="container-media-footer">
-              <a href="mailto:contacto.terrania@terrania.info" target="_blank" rel="noreferrer">
-                <img src="/media/Mail.png" alt="Correo" />
-              </a>
-              <a href="https://api.whatsapp.com/send?phone=3052275731" target="_blank" rel="noreferrer">
-                <img src="/media/WhatsApp_icon.png" alt="Whatsapp" />
-              </a>
-              <a href="https://www.instagram.com/terraniaconstructora/" target="_blank" rel="noreferrer">
-                <img src="/media/ig_icon.png" alt="Instagram" />
-              </a>
-            </div>
+        <img src="/media/img8.webp" alt="Render final" loading="lazy" />
+        <div className="informacion">
+          <div className="parrafo">
+            <p>DISENADORES ESTRUCTURALES</p>
+            <p><u>STRUCTURAL DESIGNERS</u></p>
+            <p>ESTUDIO DE ARQUITECTURA</p>
+            <p><u>ARCHICTECTURE STUDIO</u></p>
+            <p>CONSTRUCTORES DE ESTRUCTURAS</p>
+            <p><u>STRUCTURE BUILDERS</u></p>
           </div>
+          <div className="contacto">
+            <a href="https://www.instagram.com/terraniaconstructora/" target="_blank" rel="noopener noreferrer">@TERRANIACONSTRUCTORA</a>
+            <p>+57 312 636 5298</p>
+            <p>+57 305 227 5731</p>
+          </div>
+          <div className="container-media-footer">
+            <a href="mailto:contacto.terrania@terrania.info" target="_blank" rel="noopener noreferrer">
+              <img src="/media/Mail.png" alt="Correo" loading="lazy" />
+            </a>
+            <a href="https://api.whatsapp.com/send?phone=3052275731" target="_blank" rel="noopener noreferrer">
+              <img src="/media/WhatsApp_icon.png" alt="Whatsapp" loading="lazy" />
+            </a>
+            <a href="https://www.instagram.com/terraniaconstructora/" target="_blank" rel="noopener noreferrer">
+              <img src="/media/ig_icon.png" alt="Instagram" loading="lazy" />
+            </a>
+          </div>
+        </div>
       </div>
     </div>
   );
