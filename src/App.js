@@ -63,13 +63,12 @@ function App() {
           <div className="contacto">
             <a href="https://www.instagram.com/terraniaconstructora/" target="_blank" rel="noopener noreferrer">@TERRANIACONSTRUCTORA</a>
             <p>+57 312 636 5298</p>
-            <p>+57 305 227 5731</p>
           </div>
           <div className="container-media-footer">
             <a href="mailto:contacto.terrania@terrania.info" target="_blank" rel="noopener noreferrer">
               <img src="/media/Mail.png" alt="Correo" loading="lazy" />
             </a>
-            <a href="https://api.whatsapp.com/send?phone=3052275731" target="_blank" rel="noopener noreferrer">
+            <a href="https://api.whatsapp.com/send?phone=3126365298" target="_blank" rel="noopener noreferrer">
               <img src="/media/WhatsApp_icon.png" alt="Whatsapp" loading="lazy" />
             </a>
             <a href="https://www.instagram.com/terraniaconstructora/" target="_blank" rel="noopener noreferrer">
